@@ -1,7 +1,7 @@
 #!/bin/sh
 
 set -e
-
+export HUBOT_SLACK_TOKEN=xoxb-85816617941-fPeCb1VciHBBvDTnFhBHcGWp
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 
